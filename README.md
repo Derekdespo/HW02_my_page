@@ -9,6 +9,7 @@ The About Derek page includes a photo of my as well as just a brief intro to mys
 The portfolio page is designed to feature new projects I make as I complete them.
 The contact page is meant to serve as a way to reach me through email. While the form doesnt exactly work, clicking submit will link you to my email adress.
 This project was a lot of fun and helped me to learn how to use html and css bootstap more!
+Link: https://derekdespo.github.io/My-Personal-Page/
 
 <img width="1440" alt="Mypage" src="https://user-images.githubusercontent.com/65831812/84328315-abb8c300-ab4f-11ea-9fa2-5679be332b4b.png">
 
