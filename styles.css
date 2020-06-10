@@ -2,33 +2,40 @@ html {
     box-sizing: border-box;
 }
 
+/* This is the image serving as my background */
 body {
-    background-color: silver;
+    background-image: url(seoulwall.jpg) ;
 }
 
+/* Decorations for my name on the page */
 h1 {
    font-family: 'Dancing Script', cursive;
-  padding-left: 20px;
+  padding: 10px;
   font-weight: bold;
   color: black;
+  border-style: groove;
+  background-color: lightblue;
 }
 
-
+/* sets the links to black color */
 a {
     color: black;
 }
 
-
+/* prevents overflow from any div element */
 div {
     overflow: auto;
 }
 
-
+/* decoration for sub header on each page */
 h2 {
     font-family: 'Hind', sans-serif;
+    padding: 20px;
+    padding-top: 30px;
    
 }
 
+/* this will serve the image of my on the about page */
 img {
     
     width:35%;
@@ -39,8 +46,70 @@ img {
     
 }
 
+/* paragraph decoration */
 p {
     padding: 5px;
     font-family: 'Architects Daughter', cursive;
     font-size: 15px;
  }
+
+/* serves the form on the contact page */
+ .form-group {
+     padding: 40px;
+ }
+
+ /* serves the button on the contact page */
+ button {
+     padding: 15px;
+ }
+
+ /* Pads the column on the about page */
+ .col-sm-9 {
+     padding-left: 50px;
+ }
+
+ /* adds borders to each row */
+ .row {
+     border-style: double;
+ }
+
+ /* decorates the footer */
+ footer {
+     background-color: cornflowerblue;
+     height: 80px;
+     color: darkslategray;
+     text-align: center; 
+ }
+
+ /* pads the footer text */
+ h6 {
+     padding: 30px;
+ }
+
+ .text-block {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+  }
+
+ 
+
+ /* This should determine breakpoint for smartphones */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {}
+
+    /* This should determine breakpoint for tablets */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
+
+    /* This should determin breakpoint for laptops & desktops */
+@media only screen  and (min-width : 1224px) {}
+
+    /* This should determin breakpoint for larger sized screens */
+@media only screen  and (min-width : 1824px) {}
+    
+
+
